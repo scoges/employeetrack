@@ -1,0 +1,25 @@
+{
+  "name": "employee-track",
+  "version": "1.0.0",
+  "description": "Employee tracking",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scoges/employeetrack.git"
+  },
+  "author": "Scott Ogrins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scoges/employeetrack/issues"
+  },
+  "homepage": "https://github.com/scoges/employeetrack#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "inquirer": "^9.2.11",
+    "mysql2": "^3.6.1"
+  }
+}
