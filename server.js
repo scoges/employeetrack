@@ -1,6 +1,7 @@
 const inquirer = require("inquirer");
-const mysql = require("mysql2/promise");
+const mysql = require("mysql2");
 require('dotenv').config()
+
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
@@ -8,12 +9,22 @@ const connection = mysql.createConnection({
     database: 'Company_db'
   });
   
+
+  const { showDepartments } = require("./functions/Departments");
+  const { showRoles} = require("./functions/Role");
+  const { showEmployees} = require("./functions/Employee");
+  
+
+
+
+
   connection.connect(err => {
     if (err) throw err;
     console.log('connected!');
     afterConnection();
   });
 
+  
   const promptUser = () => {
     inquirer.prompt ([
       {
