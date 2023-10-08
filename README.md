@@ -33,7 +33,16 @@
   ## Questions
   Have questions about this project?  
   GitHub: https://github.com/scoges  
-  Email: scott.ogrins@gmail.com
+
+
+  ## video link
+  https://www.dropbox.com/scl/fi/txe5xf91w6247jet6phu7/2023-10-08-13-58-32.mkv?rlkey=j5x94554gvny37uximxureyru&dl=0
+
+  ## screenshot
+  ![Screenshot from 2023-10-08 14-07-27](https://github.com/scoges/employeetrack/assets/131681487/4da49b94-a765-4400-b398-ded3d68b179f)
+
+
 
   ## Credits
   Scott Ogrins
+  Email: scott.ogrins@gmail.com
